@@ -24,6 +24,11 @@ body {
   border: 1px dashed black;
 }
 
+.container-big{
+  width: 70%;
+  margin: 0 auto;
+}
+
 /* HEADER */
 header {
   height: 80px;
@@ -59,10 +64,7 @@ header {
   background-color: #B4D0E7;
 }
 
-.container-hero{
-  width: 70%;
-  margin: 0 auto;
-}
+
 
 h1 {
   padding-top: 2rem;
@@ -156,11 +158,30 @@ h1 {
   height: 320px;
 }
 
-/* INFO */
+/* INFO SECTION*/
 .info-space {
   width: 100%;
   margin: 2rem 0;
   /* debug */
   background-color: gray;
   height: 300px;
+}
+
+/* DESIGNT-SECTION */
+
+/* FREE-TRIAL */
+.free-trial {
+  background-color: #B4D0E7;
+  width: 100%;
+}
+
+.row-trial {
+  justify-content: space-between;
+}
+
+.col-trial{
+  margin: 2rem 0;
+  /* debug */
+  height: 200px;
+  background-color: gray;
 }
