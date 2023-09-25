@@ -185,3 +185,12 @@ h1 {
   height: 200px;
   background-color: gray;
 }
+
+/* QUESTION-SECTION */
+.question-container{
+  margin: 2rem 0;
+  /* debug */
+  height: 400px;
+  background-color: gray;
+  width: 100%;
+}
