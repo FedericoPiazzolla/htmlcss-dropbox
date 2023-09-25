@@ -32,6 +32,11 @@ body {
 /* HEADER */
 header {
   height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
   /* debug */
   background-color: white;
 }
@@ -55,7 +60,9 @@ header {
 }
 
 /* MAIN */
-
+main{
+  margin-top: 80px;
+}
 /* HERO */
 .hero {
 
