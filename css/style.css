@@ -108,10 +108,6 @@ h1 {
   background-color: gray;
 }
 
-.row-m-section-bott {
-
-}
-
 .col-bott-m-section {
   margin: 2rem 0;
   width: 100%;
@@ -169,6 +165,26 @@ h1 {
 
 /* DESIGNT-SECTION */
 
+.col-designt {
+  width: calc(100% / 3);
+  /* debug */
+  height: 350px;
+  background-color: blue;
+}
+
+.img-row {
+  flex-wrap: wrap;
+}
+
+.img-col {
+  width: calc(100% / 2 );
+
+  /* debug */
+  background-color: orange;
+  border: 1px solid black;
+  height: 175px;
+}
+
 /* FREE-TRIAL */
 .free-trial {
   background-color: #B4D0E7;
@@ -182,7 +198,7 @@ h1 {
 .col-trial{
   margin: 2rem 0;
   /* debug */
-  height: 200px;
+  height: 300px;
   background-color: gray;
 }
 
@@ -207,7 +223,6 @@ footer{
 
 .col-f-top {
   width: calc(96% / 5);
-
   /* debug */
   background-color: gray;
   height: 300px;
