@@ -194,3 +194,29 @@ h1 {
   background-color: gray;
   width: 100%;
 }
+
+/* FOOTER */
+footer{
+  background-color: black;
+  padding: 3rem 0 1rem;
+}
+
+.row-f-top {
+  justify-content: space-between;
+}
+
+.col-f-top {
+  width: calc(96% / 5);
+
+  /* debug */
+  background-color: gray;
+  height: 300px;
+}
+
+.footer-bott{
+  margin-top: 2rem;
+  /* debug */
+  width: 100%;
+  background-color: gray;
+  height: 100px;
+}
