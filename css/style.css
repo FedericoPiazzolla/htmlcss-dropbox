@@ -18,6 +18,12 @@ body {
   display: flex;
 }
 
+.container{
+  width: 60%;
+  margin: 0 auto;
+  border: 1px dashed black;
+}
+
 /* HEADER */
 header {
   height: 80px;
@@ -81,4 +87,33 @@ h1 {
 
 .col2 {
   width: 60%;
+}
+
+/* MAIN-SECTION */
+
+.main-section{
+  padding-top: 3rem;
+}
+
+.row-m-section-up {
+  justify-content: space-between;
+}
+
+.col-m-section-up {
+  width: calc(95% / 3);
+  /* debug */
+  height: 550px;
+  background-color: gray;
+}
+
+.row-m-section-bott {
+
+}
+
+.col-bott-m-section {
+  margin-top: 1rem;
+  width: 100%;
+  /* debug */
+  height: 200px;
+  background-color: gray;
 }
