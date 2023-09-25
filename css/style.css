@@ -9,6 +9,10 @@ img{
   width: 100%;
 }
 
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
 /* UTILITIES */
 
 /* HEADER */
