@@ -237,20 +237,44 @@ h1 {
   padding-top: 2rem;
 }
 
-/* SECOND SECTION */
-.second-section {
- margin-top: 2rem; 
+/* PARTNER SECTION */
+.partner-section {
+ margin: 3rem 0 2rem; 
 }
 
 .row-2-section {
   justify-content: space-between;
 }
 
-.col-2-section {
+.col-2-section-big {
   margin: 1rem 0;
-  /* debug */
-  background-color: green;
-  height: 400px;
+  width: 60%;
+}
+
+.col-2-section-small{
+  width: 40%;
+}
+
+.col-2-section-small h3{
+  font-size: 1.4rem;
+  padding: 2rem 0;
+}
+
+.col-2-section-small p {
+  font-weight: 300;
+  font-size: 1.1rem;
+  padding-bottom: 2rem;
+}
+
+.col-2-section-small a{
+  padding: .8rem 1.5rem;
+  color: #888888;
+  border: 1px solid #888888;
+  background-color: white;
+}
+
+.col-padding {
+  padding: 3rem 0 3rem 3rem;
 }
 
 /* SIX-COL-SECTION */
