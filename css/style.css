@@ -385,15 +385,26 @@ footer{
 
 .col-f-top {
   width: calc(96% / 5);
-  /* debug */
-  background-color: gray;
-  height: 300px;
+  color: white;
+}
+
+.col-f-top h3 {
+  font-size: 1.5rem;
+  padding-bottom: .5rem;
+}
+
+.col-f-top li {
+  margin-bottom: .5rem;
+  font-weight: 300;
+  font-size: .8rem;
+}
+
+footer hr{
+  width: 10%;
+  margin: 4rem 0 2rem;
 }
 
 .footer-bott{
-  margin-top: 2rem;
-  /* debug */
-  width: 100%;
-  background-color: gray;
-  height: 100px;
+  color: white;
+  margin-bottom: 2rem;
 }
