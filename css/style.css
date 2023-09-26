@@ -106,6 +106,7 @@ main{
 h1 {
   padding-top: 2rem;
   font-size: 3.4rem;
+  font-weight: 800;
 }
 
 .hero-row {
@@ -117,12 +118,17 @@ h1 {
   width: 100%;
 }
 
+.hero-col > p {
+  font-weight: 300;
+  font-size: .9rem;
+}
+
 .col-small {
-  width: 35%;
+  width: 30%;
 }
 
 .col-big {
-  width: 60%;
+  width: 70%;
 }
 
 /* MAIN-SECTION */
