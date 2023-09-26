@@ -43,6 +43,11 @@ a {
   color: inherit;
 }
 
+.btn {
+  background-color: #0061ff;
+  color: white;
+  padding: .3rem .8rem;
+}
 /* HEADER */
 header {
   height: 5rem;
@@ -69,21 +74,23 @@ header {
 }
 
 .col-nav {
-  width: calc(100% / 3);
+  width: calc(100% / 2);
 }
 
 .nav-links {
-  flex-direction: row;
-  justify-content: space-between;
+  gap: 2rem;
+  height: 100%;
   align-items: center;
-  padding: 1.1rem 0;
 }
 
-.nav-links > li{
-  width: 100%;
-  text-align: center;
+
+.left {
+  justify-content: flex-end;
 }
 
+.nav-links > li {
+  gap: 1rem;
+}
 
 /* MAIN */
 main{
