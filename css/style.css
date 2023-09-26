@@ -98,8 +98,6 @@ main{
 }
 /* HERO */
 .hero {
-
-  /* debug */
   background-color: #B4D0E7;
 }
 
@@ -120,7 +118,22 @@ h1 {
 
 .hero-col > p {
   font-weight: 300;
-  font-size: .9rem;
+  font-size: 1rem;
+  padding-bottom: 3rem;
+}
+
+.hero-col > h3 {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 3rem;
+}
+
+.btn-hero {
+  padding: .8rem 1rem;
+}
+
+.fa-arrow-down {
+  margin-top: 4rem;
 }
 
 .col-small {
