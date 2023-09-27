@@ -121,20 +121,15 @@
           <h2>Trova il piano buisness che fa per te</h2>
 
           <div class="input">
-            <label for="">
-              <input
-                id="month-fatt"
-                type="radio"
-                name="check"
-                value=""
-              />Fatturazione Mensile
-              <input
-                id="year-fatt"
-                type="radio"
-                name="check"
-                value=""
-              />Fatturazione Annuale
-            </label>
+            <div class="month">
+              <input type="radio" name="check" id="month">
+              <label class="form-control" for="month">Fatturazione Mensile</label>
+            </div>
+            
+            <div class="year">
+              <input type="radio" name="check" id="year">
+              <label class="form-control" for="year">Fatturazione Annuale</label>
+            </div>
           </div>
 
           <div class="row-m-section-up flex" id="plans">

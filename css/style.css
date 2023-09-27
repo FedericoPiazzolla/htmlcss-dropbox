@@ -110,6 +110,7 @@ header {
 /* MAIN */
 main{
   margin-top: 5rem;
+  accent-color: blue;
 }
 
 /* HERO */
@@ -173,6 +174,10 @@ h1 {
 
 /* INPUTS-BEFORE CARD */
 
+.month , .year{
+  display: inline;
+  margin-right: 3rem;
+}
 
 /* CARD */
 .row-m-section-up {
