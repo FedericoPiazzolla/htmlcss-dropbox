@@ -358,6 +358,18 @@ h1 {
   width: calc(100% / 3);
 }
 
+.img-row {
+  
+}
+
+.img-col {
+  
+}
+
+.filter{
+  filter: invert(1);
+}
+
 .gray-bg{
   background-color: #f5f5f5;
   padding: 32px;
@@ -369,56 +381,6 @@ h1 {
 
 .logo-designt{
   width: 50%;
-}
-
-.img-row {
-  flex-wrap: wrap;
-}
-
-.img-col {
-  width: calc(100% / 2 );
-  height: 50%;
-  padding: 80px;
-}
-
-.red {
-  background-color: red;
-  border:16px solid red;
-}
-
-.lightgreen{
-  background-color: #a2d39b;
-  border: 16px solid #d1e9cd;
-}
-
-.cyan {
-  background-color: #0093ce;
-  border:16px solid #0093ce;
-}
-
-.bordeaux{
-  background-color: #61082b;
-  border:16px solid #61082b;
-}
-
-.blue{
-  background-color: blue;
-  border:16px solid blue;
-}
-
-.lightblue{
-  background-color: lightblue;
-  border:16px solid lightblue;
-}
-
-.yellow{
-  background-color: rgb(238, 238, 52);
-  border:16px solid rgb(238, 238, 52);
-}
-
-.filter{
-  display: block;
-  filter: invert(1);
 }
 
 /* FREE-TRIAL */
