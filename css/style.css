@@ -102,13 +102,20 @@ header {
   gap: 1rem;
 }
 
+.btn:hover{
+  filter: brightness(1.5);
+  cursor: pointer;
+}
+
 /* MAIN */
 main{
   margin-top: 5rem;
 }
+
 /* HERO */
 .hero {
   background-color: #B4D0E7;
+  margin-bottom: 80px;
 }
 
 h1 {
@@ -118,8 +125,14 @@ h1 {
 }
 
 .hero-row {
+  position: relative;
   padding-top: 4rem;
   justify-content: space-between;
+}
+
+.out{
+  position: relative;
+  top: 80px;
 }
 
 .hero-col {
@@ -129,21 +142,21 @@ h1 {
 .hero-col > p {
   font-weight: 300;
   font-size: 1rem;
-  padding-bottom: 3rem;
+  padding-bottom: 1.5rem;
 }
 
 .hero-col > h3 {
   font-size: 1rem;
   font-weight: 300;
-  margin-top: 3rem;
+  margin: 2rem 0;
 }
 
 .btn-hero {
   padding: .8rem 1rem;
 }
 
-.fa-arrow-down {
-  margin-top: 4rem;
+.under-arrow {
+  
 }
 
 .col-small {
@@ -157,12 +170,13 @@ h1 {
 /* PLANS-SECTION */
 
 .main-section h2{
-  padding: 3rem 0;
+  padding: 4rem 0;
   font-weight: 700;
   font-size: 2rem;
 }
 
 .row-m-section-up {
+  margin-top: 54px;
   justify-content: space-between;
 }
 
@@ -288,7 +302,7 @@ h1 {
 
 /* SIX-COL-SECTION */
 .container > h2{
-  padding: 32px 0;
+  padding: 50px 0;
   font-size: 2.2rem;
 }
 
@@ -394,11 +408,12 @@ h1 {
 }
 
 .yellow{
-  background-color: yellow;
-  border:16px solid yellow;
+  background-color: rgb(238, 238, 52);
+  border:16px solid rgb(238, 238, 52);
 }
 
 .filter{
+  display: block;
   filter: invert(1);
 }
 
